@@ -1,13 +1,13 @@
 import electric.Pikachu;
-import fire.Charmander;
+import fire.Charmeleon;
 
 public class Main{
 
 	public static void main(String...args){
 
-        Charmander charmander = new Charmander();
+        Charmeleon pk = new Charmeleon();
 
-        charmander.run();
+        pk.run();
 		
 	}
 	
