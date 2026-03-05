@@ -1,12 +1,13 @@
 import electric.Pikachu;
+import fire.Charmeleon;
 
 public class Main{
 
 	public static void main(String...args){
 
-		Pikachu p = new Pikachu();
+        Charmeleon pk = new Charmeleon();
 
-		p.getName();
+        pk.run();
 		
 	}
 	
