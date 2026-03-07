@@ -40,6 +40,8 @@ public class Main{
 		rd.printName();
 		Moltres ms=new Moltres();
 		ms.printName();
+		Moltres msa=new Moltres();
+		msa.printName();
 
 	}
 	
