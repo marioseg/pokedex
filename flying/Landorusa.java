@@ -1,10 +1,10 @@
 package flying;
 
 
-public class Landorus{
+public class Landorusa{
 
 
- 	private String name="Landorus";
+ 	private String name="Landorusa";
 	private String color="silver";
 
 	public String setName(String name){

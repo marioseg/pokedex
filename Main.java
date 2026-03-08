@@ -1,5 +1,7 @@
 import electric.*;
 import fire.*;
+import ground.*;
+import flying.*;
 
 public class Main{
 
@@ -42,6 +44,54 @@ public class Main{
 		ms.printName();
 		Moltres msa=new Moltres();
 		msa.printName();
+		System.out.println("My Flying Pokemons");
+		Articuno ac= new Articuno();
+		ac.printName();
+		Dragonite dr=new Dragonite();
+		dr.printName();
+		Emolga eg=new Emolga();
+		eg.printName();
+		Gligar gl=new Gligar();
+		gl.printName();
+		Landorusa la=new Landorusa();
+		la.printName();
+		Pidgeot pi=new Pidgeot();
+		pi.printName();
+		Salamence sa=new Salamence();
+		sa.printName();
+		Talonflame tl=new Talonflame();
+		tl.printName();
+		Zapdos za=new Zapdos();
+		za.printName();
+		System.out.println("My Ground Pokemons");
+		Diglett dl= new Diglett();
+		dl.printName();
+		Dugtrio dlg=new Dugtrio();
+		dlg.printName();
+		Flygon fl=new Flygon();
+		fl.printName();
+		Garchomp gc=new Garchomp();
+		gc.printName();
+		Landorus ld=new Landorus();
+		ld.printName();
+		Onix o=new Onix();
+		o.printName();
+		Rhyperior rh=new Rhyperior();
+		rh.printName();
+		Sandaconda sav=new Sandaconda();
+		sav.printName();
+		Sandslash sl=new Sandslash();
+		sl.printName();
+		Swampert sw=new Swampert();
+		sw.printName();
+		System.out.println("few observation Pokemon can be both flying/electic so it was giving error as names are ambigus in packages so we need to change the name , as class name needs to be unique");
+		System.out.println("During earlier compilation it created class files and compiler was checking old file as well , we need to delete old class file in order to mitigate error ");
+		System.out.println("Reference variable needs to be unique while calling method");
+		
+
+
+
+
 
 	}
 	
