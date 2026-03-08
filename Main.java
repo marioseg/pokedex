@@ -8,6 +8,7 @@ public class Main{
 		Raichu ra = new Raichu();
 		Magnemite ma = new Magnemite();
 		Magneton m = new Magneton();
+		Voltorb v = new Voltorb();
 
 			
 
@@ -15,6 +16,7 @@ public class Main{
 		p.getColor();
 		ma.showDetails();
 		m.showDetails();
+		v.getName();
 		
 	}
 	
