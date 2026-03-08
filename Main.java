@@ -14,6 +14,7 @@ public class Main{
 		Electrode e = new Electrode();
 		Zapdos za = new Zapdos();
 		Bulbasaur bu = new Bulbasaur();
+		Ivysaur iv = new Ivysaur();
 
 			
 		ra.showDetails();
@@ -24,6 +25,8 @@ public class Main{
 		el.showDetails();
 		e.showDetails();
 		za.showDetails();
+		bu.showDetails();
+		iv.showDetails();
 	}
 	
 }
