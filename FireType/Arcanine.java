@@ -1,4 +1,4 @@
-package pokedexBindu.FireType;
+package FireType;
 
 public class Arcanine {
 

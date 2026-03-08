@@ -1,5 +1,4 @@
 package pokedexBindu.GrassType.ChildType;
-
 import pokedexBindu.ParentPokemon;
 
 public class Venusaur extends ParentPokemon {
@@ -15,3 +14,4 @@ public class Venusaur extends ParentPokemon {
         System.out.println(getName() + " uses Solar Beam!<child override> ");
     }
 }
+

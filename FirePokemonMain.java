@@ -1,8 +1,9 @@
+package pokedexBindu;
+
 import java.util.Scanner;
 
-import pokedexBindu.FireType.Charizard;
-import pokedexBindu.FireType.Arcanine;
-import pokedexBindu.FireType.Talonflame;
+import FireType.*;
+
 
 public class FirePokemonMain {
     public static void main(String[] args) {

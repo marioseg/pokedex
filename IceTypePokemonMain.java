@@ -1,6 +1,7 @@
-import pokedexBindu.IceType.Glaceon;
-import pokedexBindu.IceType.Froslass;
-import pokedexBindu.IceType.Baxcalibur;
+package pokedexBindu;
+
+import IceType.*;
+
 import java.util.Scanner;
 
 public class IceTypePokemonMain {

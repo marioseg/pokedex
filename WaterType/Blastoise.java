@@ -1,4 +1,4 @@
-package pokedexBindu.WaterType;
+package WaterType;
 
 public class Blastoise {
 

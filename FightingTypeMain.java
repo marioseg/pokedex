@@ -1,8 +1,6 @@
 package pokedexBindu;
 
-import pokedexBindu.FightingType.Machamp;
-import pokedexBindu.FightingType.Lucario;
-import pokedexBindu.FightingType.IronValiant;
+import FightingType.*;
 
 public class FightingTypeMain {
     public static void main(String[] args) {

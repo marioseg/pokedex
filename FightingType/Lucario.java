@@ -1,4 +1,4 @@
-package pokedexBindu.FightingType;
+package FightingType;
 
 public class Lucario {
 

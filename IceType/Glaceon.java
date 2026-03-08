@@ -1,4 +1,4 @@
-package pokedexBindu.IceType;
+package IceType;
 import java.util.Scanner;
 
 public class Glaceon 

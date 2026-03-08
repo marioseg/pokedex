@@ -1,4 +1,4 @@
-package pokedexBindu.IceType;
+package IceType;
 
 public class Froslass  {
     private String name;
