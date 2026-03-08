@@ -9,6 +9,7 @@ public class Main{
 		Magnemite ma = new Magnemite();
 		Magneton m = new Magneton();
 		Voltorb v = new Voltorb();
+		Electabuzz el = new Electabuzz();
 
 			
 
@@ -17,7 +18,7 @@ public class Main{
 		ma.showDetails();
 		m.showDetails();
 		v.getName();
-		
+		el.showDetails();
 	}
 	
 }
