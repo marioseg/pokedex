@@ -11,6 +11,7 @@ public class Main{
 		Voltorb v = new Voltorb();
 		Electabuzz el = new Electabuzz();
 		Electrode e = new Electrode();
+		Zapdos za = new Zapdos();
 
 			
 
@@ -21,6 +22,7 @@ public class Main{
 		v.getName();
 		el.showDetails();
 		e.showDetails();
+		za.showDetails();
 	}
 	
 }
