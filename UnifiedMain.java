@@ -11,6 +11,8 @@ import PsychicType.*;
 import FireType.*;
 import IceType.*;
 import WaterType.*;
+import DragonType.*;
+import GhostType.*;
 import pokedexBindu.ParentPokemon;
 import pokedexBindu.WaterType.ChildPokemon.Milotic;
 import pokedexBindu.GrassType.ChildType.Venusaur;
@@ -36,7 +38,8 @@ public class UnifiedMain {
 	System.out.println("6. Ice Type");
         System.out.println("7.Water Type");
         System.out.println("8.Grass Type");
-    
+	System.out.println ("9.DragonType");
+   	System.out.println ("10.Ghost Type");
         System.out.print("Enter your choice: ");
 
         int choice = sc.nextInt();
@@ -194,11 +197,43 @@ public class UnifiedMain {
                     System.out.println();
                 }
                 break;
+//------------------DragonType--------------------------
 
+	case 9: 
+		Dragonite dr = new Dragonite("Dragonite","Red",123,456);
+		Salamence sa = new Salamence("Salamence","DragonType","Green",678);
+        	Dragapult dra = new Dragapult("Dragapult","DragonType",566,234);
+		dr.superFriend();
+		dr.avoidsPhysicalFights();
+		sa.fierce();
+		sa.lovesFlyingFast();
+		sa.veryAggressives();
+		dra.stealthy();
+		dra.fast();
+		dra.movement();
+		System.out.println();
+	        break;
 
+//--------------GhostType------------------------
+case 10 : 
 
-               default:
+                Gengar ge = new Gengar("Gengar","Pink",123,456);
+		Ceruledge ce = new Ceruledge("Ceruledge","GhostType","Green",678);
+        	Mimikyu mim = new Mimikyu("Mimikyu","GhostType",566,234);
+		ge.mischievous();
+		ge.lovepranks();
+		ce.serious();
+		ce.knight();
+		ce.fightswithhonour();
+		mim.shy();
+		mim.fast();
+		mim.threatened();
+		System.out.println();
+break;
+                
+default:
                 System.out.println("Invalid choice.");
+
 
         }
 

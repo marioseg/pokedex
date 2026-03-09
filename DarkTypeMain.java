@@ -1,6 +1,5 @@
 package pokedexBindu;
 
-
 import Darktype.*;
 
 public class DarkTypeMain {
