@@ -7,7 +7,11 @@ public class Main{
 
 	public static void main(String...args){
 
-		Pikachu p = new Pikachu();
+		int growthRate= 10;
+		int evolutionThreshold =10;
+    	Beedrill beedrill = new Beedrill(growthRate, evolutionThreshold);
+		beedrill.absorbHealth();
+
 
 		p.getName();
                 
