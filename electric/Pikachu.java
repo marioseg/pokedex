@@ -6,20 +6,16 @@ public class Pikachu{
 	private String color = "Yellow";
 	private String name = "Pikachu";
 
-	public void printColor(){
-		System.out.println(color);
+	public String setName( String name){
+                return name;
+	}
+	public void printName(){
+		System.out.println(name);
 	}
 
-	public String getColor(){
-		return color;
+	public String getName(){
+		return name;
 	}
-
-	public void setColor(String color){
-		this.color = color;
-	}
-
-	public void run(){
-		System.out.println("Pikachu is running!!!!!");
-	}
-	
+ 	
 }
+

@@ -1,45 +1,30 @@
-package com.synechron.fire;
+package fire;
+
 
 public class Rapidash{
-	
-	private String specialAttackPower;
-	private String immunities;
-	
-	public Rapidash(String specialAttackPower, String immunities ){
-		System.out.println("Calling the constructor of Rapidash");
-		this.specialAttackPower = specialAttackPower;
-		this.immunities = immunities;
-		
+
+
+ 	private String name="Rapidash";
+	private String color="white";
+
+	public String setName(String name){
+	     	return name;
 	}
-	
-	public String getspecialAttackPower(String specialAttackPower){
-		System.out.println("The specialAttackPower for Rapidash is "+specialAttackPower);
-		return specialAttackPower;
-		
+	public String getName(){
+		return name;
 	}
-	
-	public void setspecialAttackPower(String specialAttackPower){
-	     this. specialAttackPower = specialAttackPower;
-	} 
-	
-	public String getImmunities(String immunities){
-		System.out.println("The immunities for Rapidash is "+immunities);
-		return immunities;
+	public void printName(){
+		System.out.println(name);
 	}
-	
-		
-	public void setImmunities(String immunities){
-		this.immunities= immunities;
-	}
-	
-	
-	public int flameThrower(int target){
-		System.out.println("Calling the flameThrower for Rapidash");
-		return target;
-	}
-	
-	public void sunnyDay(){
-		System.out.println("Calling the sunnyDay for Rapidash");
-	}
-	
+
+
+
+
+
+
+
+
+
+
 }
+
