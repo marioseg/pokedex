@@ -1,11 +1,11 @@
-package electric;
+package glass;
 
-public class Magneton {
+public class Bulbasaur {
 
-	private String name = "Magneton";
-	private String type = "Electric/Steel";
-	private String color = "Red";
-	private String evolution = "Final";
+	private String name = "Bulbasaur";
+	private String type = "Grass/Poison";
+	private String color = "Green";
+	private String evolution = "Ivysaur";
 
 	public String getName() {
 		return this.name;
