@@ -1,46 +1,61 @@
-package com.synechron.fire;
+package fire;
 
-public class Ponyta{
-	
-	private String specialAttackPower;
-	private String immunities;
-	
-	public Ponyta(String specialAttackPower, String immunities ){
-		System.out.println("Calling the constructor of Ponyta");
-		this.specialAttackPower = specialAttackPower;
-		this.immunities = immunities;
-		
+public class Ponyta {
+
+    private String name = "Ponyta";
+    private String color = "Yellow";
+    private String appearance = "Flame tail"
+    private int speed = 6;
+
+
+	// name getter
+	public String getName( ){ 
+		return name; 
 	}
-	
-	public String getspecialAttackPower(String specialAttackPower){
-		System.out.println("The specialAttackPower for Ponyta is "+specialAttackPower);
-		return specialAttackPower;
-		
+
+	// name setter
+    	public void setName(String name) { 
+		this.name = name; 
 	}
-	
-	public void setspecialAttackPower(String specialAttackPower){
-	     this. specialAttackPower = specialAttackPower;
-	} 
-	
-	public String getImmunities(String immunities){
-		System.out.println("The immunities for Ponyta is "+immunities);
-		return immunities;
+
+	// color getter
+    	public String getColor(){
+        	return color;
 	}
-	
-		
-	public void setImmunities(String immunities){
-		this.immunities= immunities;
+
+	// color setter
+	public void setColor(String color){
+        	this.color = color;
+    	}
+
+	// appearance getter
+    	public String getAppearance(){
+        	return appearance;
 	}
-	
-	
-	
-	public int flameThrower(int target){
-		System.out.println("Calling the flameThrower for Ponyta");
-		return target;
+
+	// appearance setter
+	public void setAppearance(String appearance){
+        	this.appearance = appearance;
+    	}
+
+
+	// speed getter
+	public int getSpeed() { 
+		return speed; 
 	}
-	
-	public void sunnyDay(){
-		System.out.println("Calling the sunnyDay for Ponyta");
+
+	// speed setter
+	public void setSpeed(int speed) { 
+		this.speed = speed; 
 	}
+
 	
-}
+	// behavior 1 - chases parents
+    	public void chases(){
+       		System.out.println(name + " chases after it's parents to strengthen its legs");
+    	}
+
+	// behavior 2 - leaping
+    	public void leap(){
+        	System.out.println(name + " leaps over tall buildings");
+    	}

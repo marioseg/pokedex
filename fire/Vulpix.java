@@ -1,45 +1,61 @@
-package com.synechron.fire;
+package fire;
 
-public class Vulpix{
-	
-	private String specialAttackPower;
-	private String immunities;
-	
-	public Vulpix(String specialAttackPower, String immunities ){
-		System.out.println("Calling the constructor of Vulpix");
-		this.specialAttackPower = specialAttackPower;
-		this.immunities = immunities;
-		
+public class Vulpix {
+
+    private String name = "Vulpix";
+    private String color = "Orange";
+    private int speed = 4;
+    private int specialDefense = 4;
+
+
+	// color getter
+    	public String getColor(){
+        	return color;
 	}
-	
-	public String getspecialAttackPower(String specialAttackPower){
-		System.out.println("The specialAttackPower for Vulpix is "+specialAttackPower);
-		return specialAttackPower;
-		
+
+	// color setter
+	public void setColor(String color){
+        	this.color = color;
+    	}
+
+	// name getter
+	public String getName( ){ 
+		return name; 
 	}
-	
-	public void setspecialAttackPower(String specialAttackPower){
-	     this. specialAttackPower = specialAttackPower;
-	} 
-	
-    public String getImmunities(String immunities){
-		System.out.println("The immunities for Vulpix is "+immunities);
-		return immunities;
+
+	// name setter
+    	public void setName(String name) { 
+		this.name = name; 
 	}
-	
-		
-	public void setImmunities(String immunities){
-		this.immunities= immunities;
+
+
+	// speed getter
+	public int getSpeed() { 
+		return speed; 
 	}
-	
-	
-	public int flameThrower(int target){
-		System.out.println("Calling the flameThrower for Vulpix");
-		return target;
+
+	// speed setter
+	public void setSpeed(int speed) { 
+		this.speed = speed; 
 	}
-	
-	public void sunnyDay(){
-		System.out.println("Calling the sunnyDay for Vulpix");
+
+	// special defense getter
+	public int getSpecialDefense() { 
+		return specialDefense; 
 	}
+
+	// special defence setter
+	public void setSpecialDefense(int specialDefense) { 
+		this.specialDefense = specialDefense; 
+	}
+
 	
-}
+	// behavior 1 - willowisp
+    	public void createWillOWisp(){
+       		System.out.println(name + " creates a will-o-wisp!");
+    	}
+
+	// behavior 2 - follows trainer
+    	public void followTrainer(){
+        	System.out.println(name + " follows its trainer closely.");
+    	}

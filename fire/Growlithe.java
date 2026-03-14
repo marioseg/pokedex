@@ -1,45 +1,61 @@
-package com.synechron.fire;
+package fire;
 
-public class Growlithe{
-	
-	private String specialAttackPower;
-	private String immunities;
-	
-	public Growlithe(String specialAttackPower, String immunities ){
-		System.out.println("Calling the constructor of Growlithe");
-		this.specialAttackPower = specialAttackPower;
-		this.immunities = immunities;
-		
+public class Growlith {
+
+    private String name = "Growlithe";
+    private String color = "Orange with black stripes";
+    private int attack = 5;
+    private int specialAttack = 5;
+
+
+	// color getter
+    	public String getColor(){
+        	return color;
 	}
-	
-	public String getspecialAttackPower(String specialAttackPower){
-		System.out.println("The specialAttackPower for Growlithe is "+specialAttackPower);
-		return specialAttackPower;
-		
+
+	// color setter
+	public void setColor(String color){
+        	this.color = color;
+    	}
+
+	// name getter
+	public String getName( ){ 
+		return name; 
 	}
-	
-	public void setspecialAttackPower(String specialAttackPower){
-	     this. specialAttackPower = specialAttackPower;
-	} 
-	
-	public String getImmunities(String immunities){
-		System.out.println("The immunities for Growlithe is "+immunities);
-		return immunities;
+
+	// name setter
+    	public void setName(String name) { 
+		this.name = name; 
 	}
-	
-		
-	public void setImmunities(String immunities){
-		this.immunities= immunities;
+
+
+	// attack stats getter
+	public int getAttackLevel() { 
+		return attack; 
 	}
-	
-	
-	public int flameThrower(int target){
-		System.out.println("Calling the flameThrower for Growlithe");
-		return target;
+
+	// attack stats setter
+	public void setAttackLevel(int attack) { 
+		this.attack = attack; 
 	}
-	
-	public void sunnyDay(){
-		System.out.println("Calling the sunnyDay for Growlithe");
+
+	// special attack getter
+	public int getSpecialAttack() { 
+		return specialAttack; 
 	}
+
+	// special defence setter
+	public void setSpecialAttack(int specialAttack) { 
+		this.specialAttack = specialAttack; 
+	}
+
 	
-}
+	// behavior 1 - intimidates attackers
+    	public void guard(){
+       		System.out.println(name + " stands guard loyally.");
+    	}
+
+	// behavior 2 - obeys trainer
+    	public void sniff(){
+        	System.out.println(name + " sniffs the air with its strong sense of smell.");
+    	}

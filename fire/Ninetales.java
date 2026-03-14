@@ -1,44 +1,61 @@
-package com.synechron.fire;
+package fire;
 
-public class Ninetales{
-	
-	private String specialAttackPower;
-	private String immunities;
-	
-	public Ninetales(String specialAttackPower, String immunities ){
-		System.out.println("Calling the constructor of Ninetales");
-		this.specialAttackPower = specialAttackPower;
-		this.immunities = immunities;
-		
+public class Ninetales {
+
+    private String name = "Ninetales";
+    private String color = "Gold";
+    private int speed = 6;
+    private int specialDefense = 6;
+
+
+	// color getter
+    	public String getColor(){
+        	return color;
 	}
-	
-	public String getspecialAttackPower(String specialAttackPower){
-		System.out.println("The specialAttackPower for Ninetales is "+specialAttackPower);
-		return specialAttackPower;
-		
+
+	// color setter
+	public void setColor(String color){
+        	this.color = color;
+    	}
+
+	// name getter
+	public String getName( ){ 
+		return name; 
 	}
-	
-	public void setspecialAttackPower(String specialAttackPower){
-	     this. specialAttackPower = specialAttackPower;
-	} 
-	
-	public String getImmunities(String immunities){
-		System.out.println("The immunities for Ninetales is "+immunities);
-		return immunities;
+
+	// name setter
+    	public void setName(String name) { 
+		this.name = name; 
 	}
-	
-		
-	public void setImmunities(String immunities){
-		this.immunities= immunities;
+
+
+	// speed getter
+	public int getSpeed() { 
+		return speed; 
 	}
-	
-	public int flameThrower(int target){
-		System.out.println("Calling the flameThrower for Ninetales");
-		return target;
+
+	// speed setter
+	public void setSpeed(int speed) { 
+		this.speed = speed; 
 	}
-	
-	public void sunnyDay(){
-		System.out.println("Calling the sunnyDay for Ninetales");
+
+	// special defense getter
+	public int getSpecialDefense() { 
+		return specialDefense; 
 	}
+
+	// special defence setter
+	public void setSpecialDefense(int specialDefense) { 
+		this.specialDefense = specialDefense; 
+	}
+
 	
-}
+	// behavior 1 - psychic power
+    	public void usePsychicPower(){
+       		System.out.println(name + " uses psychic power to control minds!");
+    	}
+
+	// behavior 2 - understands human speech
+    	public void castCurse(){
+        	System.out.println(name + " can cast curses!");
+    	}
